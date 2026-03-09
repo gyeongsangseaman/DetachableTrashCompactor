@@ -71,6 +71,7 @@ if (digitalRead(BUTTON_PIN) == LOW) {
         Timer1.setPwmDuty(PWM_PIN, 0); // 정지
     }
 }
+```
 
 ### 기구적 가이드 설계
 - 볼스크류 회전 시 압축판이 함께 회전하는 현상을 방지하기 위해 수직 가이드를 추가로 장착하여 안정적인 직선 운동 구현
